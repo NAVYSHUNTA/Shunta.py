@@ -39,12 +39,13 @@ def hangman(word):
     if not win:
         print("あなたの負け！正解は{}".format(word))
 
-many=["busy","easily","every","question","each","research",
-      "rate","country","world","japan","test","disorders",
-      "trigger","prescription","significant","diabetes",
-      "tendencies","ownership","dramatic","obesity",
-      "vacation","glassland","widespread","statistics",
-      "cancer","toward","equal","industry","benefit",
+many=["busy","easily","every","question","each",
+      "research","rate","country","world","japan",
+      "test","disorders","trigger","prescription",
+      "significant","diabetes","tendencies",
+      "ownership","dramatic","obesity","vacation",
+      "glassland","widespread","statistics","cancer",
+      "toward","equal","industry","benefit",
       "actually","megadose","anemic","ingredients"
      ]
 
