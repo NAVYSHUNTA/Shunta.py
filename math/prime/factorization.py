@@ -53,6 +53,6 @@ def Prime():
     elif word == "2":
         Sentence(0.07, "[End........]").sentence()
     else:
-        print("EEROR")
+        print("ERROR")
 
 Prime()
