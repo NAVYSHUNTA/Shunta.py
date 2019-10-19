@@ -13,8 +13,8 @@ class Sentence:
             time.sleep(self.time_long)
         print(self.my_list[-1])
 
-Sentence(0.07, "[Starting now........]").sentence()
-Sentence(0.07, "[Prime factorization program]").sentence()
+Sentence(0.06, "[Starting now........]").sentence()
+Sentence(0.06, "[Prime factorization program]").sentence()
 
 def Prime():
     number_data = input("[Please enter any natural number of 2 or more]:")
@@ -42,16 +42,16 @@ def Prime():
         else:
             i += 1
     if len(box) == 1:
-        Sentence(0.07, str(box[0]) + " is prime number!").sentence()
+        Sentence(0.06, str(box[0]) + " is prime number!").sentence()
     else:
         box = list(map(str, box))
         data = "x".join(box)
-        Sentence(0.07, number_data + " is " + data).sentence()
+        Sentence(0.06, number_data + " is " + data).sentence()
     word = input("[1:{again} or 2:{end} Please enter 1 or 2:]")
     if word == "1":
         Prime()
     elif word == "2":
-        Sentence(0.07, "[End........]").sentence()
+        Sentence(0.06, "[End........]").sentence()
     else:
         print("ERROR")
 
