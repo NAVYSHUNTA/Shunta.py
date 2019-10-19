@@ -13,8 +13,8 @@ class Sentence:
             time.sleep(self.time_long)
         print(self.my_list[-1])
  
-Sentence(0.07, "[Starting now........]").sentence()
-Sentence(0.07, "[Prime number determination program]").sentence()
+Sentence(0.06, "[Starting now........]").sentence()
+Sentence(0.06, "[Prime number determination program]").sentence()
 
 def Number():
     try:
@@ -38,14 +38,14 @@ def Number():
             else:
                 count = 1
     if count == 0:
-        Sentence(0.07, str(data) + " is not prime number.").sentence()
+        Sentence(0.06, str(data) + " is not prime number.").sentence()
     else:
-        Sentence(0.07, str(data) + " is prime number!").sentence()
+        Sentence(0.06, str(data) + " is prime number!").sentence()
     word = input("[1:{again} or 2:{end} Please enter 1 or 2]:")
     if word == "1":
         Number()
     elif word == "2":
-        Sentence(0.07, "[End........]").sentence()
+        Sentence(0.06, "[End........]").sentence()
     else:
         print("ERROR")
 
