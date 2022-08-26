@@ -18,12 +18,12 @@ Pythonのライブラリの使い方を説明している。以下は、その�
 #### 線形代数
 - **行列の掛け算([multiplication.py](math/matrix/multiplication.py))**
 #### 整数論
-- **コラッツ予想(未解決問題)[collatz.py](math/collatz.py)**
+- **コラッツ予想(未解決問題)([collatz.py](math/collatz.py))**
 #### その他
-- **素因数分解[factorization_new.py](math/prime/factorization_new.py)**
-- **素数判定[prime.py](math/prime/prime.py)**
-- **互いに素であるか判定[relatively.py](math/prime/relatively.py)**
-- **フィボナッチ数列[fibonacci.py](math/fibonacci/fibonacci.py)**
+- **素因数分解[factorization_new.py](math/prime/factorization_new.py))**
+- **素数判定[prime.py]((math/prime/prime.py))**
+- **互いに素であるか判定[relatively.py]((math/prime/relatively.py))**
+- **フィボナッチ数列[fibonacci.py]((math/fibonacci/fibonacci.py))**
 
 ## その他
-- **オシャレな文字列出力[sentence.py](sentence.py)**
+- **オシャレな文字列出力[sentence.py]((sentence.py))**
