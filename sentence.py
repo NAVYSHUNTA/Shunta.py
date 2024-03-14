@@ -1,16 +1,15 @@
 import time
 
 class Sentence:
-    def __init__(self, time_long, word):
-        self.time_long = time_long
+    def __init__(self, period, word):
+        self.period = period
         self.word = word
-        self.my_list = list(self.word)
 
-    def sentence(self):
-        for i in range(0, len(self.word) - 1): 
-            print(self.my_list[i], end = "", flush = True)
-            time.sleep(self.time_long)
-        print(self.my_list[-1])
+    def print_sentence(self):
+        for wi in self.word: 
+            print(wi, end = "", flush = True)
+            time.sleep(self.period)
+        print()
 
-Sentence(0.07, "Hello World!").sentence()
-Sentence(0.05, "Have a nice day!").sentence()
+Sentence(0.07, "Hello World!").print_sentence()
+Sentence(0.05, "Have a nice day!").print_sentence()
